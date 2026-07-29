@@ -1,0 +1,15 @@
+.roll{
+    text-align: center;
+    display: flex;
+    -ms-flex-align: center;
+    
+}
+.adm{
+    text-align: center;
+    display: flex;
+    -ms-flex-align: center;
+    
+}
+tr {
+    cursor: pointer;
+}

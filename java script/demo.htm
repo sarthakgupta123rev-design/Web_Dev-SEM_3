@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <div class="Calculator">
+        <input type="text" id="input" class="inputs">
+        <div class="values">
+            <button onclick="appendOp('/')">divide</button>
+            <button onclick="appendOp('*')">mult</button>
+            <button onclick="appendOp('-')">substrt</button>
+            <button onclick="appendOp('+')">add</button>
+            <button rowspan="2" onclick="calculate()">=</button>
+            <button onclick="appendIp('1')">1</button>
+            <button onclick="appendIp('2')">2</button>
+            <button onclick="appendIp('3')">3</button>
+            <button onclick="appendIp('4')">4</button>
+            <button onclick="appendIp('5')">5</button>
+            <button onclick="appendIp('6')">6</button>
+            <button onclick="appendIp('7')">7</button>
+            <button onclick="appendIp('8')">8</button>
+            <button onclick="appendIp('9')">9</button>
+            <button onclick="appendIp('0')">0</button>
+        </div>
+    </div>
+    <h1>hye</h1>
+    <script>
+    // let a=10.9;
+    // let b={"name": "sarthak"};
+    // let c=["srk","gpt"];
+    // let d=false;
+    // let e= 23;
+
+    // console.log(typeof(a));
+    // document.write(typeof(a));
+    // console.log(typeof(b));
+    // console.log(typeof(c));
+    // console.log(typeof(d));
+    // console.log(typeof(e));
+
+    let num=" " ,prev=" ",op=" ";
+    function appendIp(ip){
+        num+=ip;
+    }
+    function appendOp(op){
+        num+=op;
+    }
+    function appendIp(ip){
+        num+=ip;
+    }
+    
+    </script>
+    
+    
+
+</body>
+</html>
