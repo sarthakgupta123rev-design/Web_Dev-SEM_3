@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>student registration form</h2>
+    <form>
+        <label>ENTER NAME: </label>
+        <input type="text" id="name"><br><br>
+
+        <label>Enter Adm. No.</label>
+        <input type="number" id="admission_number"><br><br>
+
+        <label>Enter MATHS MARKS: </label>
+        <input type="number" id="MATHS"><br><br>
+
+        <label>Enter DSA MARKS: </label>
+        <input type="number" id="DSA"><br><br>
+
+        <label>Enter AMCAT MARKS: </label>
+        <input type="number" id="AMCAT"><br><br>
+
+        <lable>Enter branch: </lable>
+        <select id="branch">
+            <option value="CSE">CSE </option>
+            <option value="DS">DS </option>
+            <option value="ME">ME </option>
+            <option value="EE">EE </option>
+            <option value="EEE">EEE </option>
+        </select>
+        <br><BR>
+        <label>PHONE </label>
+        <input type="tel" id="PHONE"><br><br>
+        
+        <input type="button" value="Register" onclick="registration_STUDENT()">
+
+    </form>
+    <script>
+        function registration_STUDENT(){
+            let name = document.getElementById("name").value;
+            let adm = document.getElementById("admission_number").value;
+            let branch = document.getElementById("branch").value;
+            let MATHS = document.getElementById("MATHS").value;
+            let DSA = document.getElementById("DSA").value;
+            let AMCAT = document.getElementById("AMCAT").value;
+
+            document.write("student name is :" +name +"<BR>");
+            document.write("admission no. is :" + adm+ "<BR>");
+            document.write("branch is :" + branch+"<BR>");
+
+                if(MATHS>=40){
+                    //return passed_in_maths;
+                    document.write("passed in maths with :" +MATHS +"<BR>");
+                }
+                else{
+                    //return fail;
+                    document.write("failed in dsa with :" +MATHS +"<BR>");
+
+                }
+                if(DSA>=40){
+                    // return passed_in_DSA;
+                    document.write("passed in dsa with :" +DSA +"<BR>");
+                }
+                else{
+                    //return fail;
+                    document.write("failed in dsa with :" +DSA +"<BR>");
+                }
+                if(AMCAT>=40){
+                    //return passed_in_amcat;
+                    document.write("passed in amcat with :" +AMCAT +"<BR>");
+                }
+                else{
+                    //return fail;
+                    document.write("failed in dsa with :" +AMCAT+"<BR>");
+                }            
+        }
+    </script>
+</body>
+</html>
