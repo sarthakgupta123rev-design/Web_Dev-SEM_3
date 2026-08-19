@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>window event</title>
+</head>
+<body>
+    <button onclick="open_window()">open new window</button>
+    <button onclick="open_yt()">open youtube</button>
+    <button onclick="open_abes()">open abes</button>
+    <button onclick="open_claude()">open claude</button>
+    
+</body>
+<script>
+    function open_window(){
+        window.open();
+    }
+    function open_yt(){
+        window.open("https://www.youtube.com/shorts");
+    }
+    function open_abes(){
+        window.open("https://abes.ac.in","_parent","width=50px","height=50px");
+    }
+    function open_claude(){
+        window.open("https://claude.ai","_blank","width=1009px,height=200px");
+    }
+</script>
+</html>

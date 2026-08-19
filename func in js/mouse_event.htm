@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box1{
+            height: 600px;
+            width: 1000px;
+            background-color: aqua;
+            margin: 200px 0 0 200px;
+            border: 5px solid rebeccapurple;
+
+        }
+    </style>
+    <script>
+        function eventcall(){
+            alert('this is section a via mouse events');
+        }
+        function eventcall2(){
+            alert('this is mouse events');
+        }
+        function eventcall3(){
+            alert('this ');
+        }
+        function eventcall4(){
+            alert('hye sarthak');
+        }
+        function eventcall5(){
+            alert('hye ');
+        }
+        function eventcall6(){
+            alert('sarthak');
+        }
+    </script>
+</head>
+<body>
+    <div id="box1" onclick="eventcall()">this is section a</div>
+    <!-- <div id="box1" ondblclick="eventcall2()" onmouseover="eventcall3()" onmousemove="eventcall4()" >this is section b</div> -->
+    <div id="box2" onmousedown="eventcall5()" onmouseup="eventcall6()">i am sarthak gupta</div>
+    <div id="box3" onmousewheel="eventcall6()">abes engg clg</div>
+    <p id="p1" onmouseenter="eventcall4()">this is para 1</p> 
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+body{
+    color: blueviolet;
+    background-size: 500px;
+    background-image:url("img 3d component.jpg") ;
+}
+
+#form1{
+    background-color: bisque;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 200px 200px 200px 300px ;
+    box-shadow: -3px 3px 10px black;
+    color: violet;
+}
+input{
+    background-color: aquamarine;
+    box-shadow: -3px 3px 10px yellow;
+    width:max-content;
+    height: 20px;
+
+}
