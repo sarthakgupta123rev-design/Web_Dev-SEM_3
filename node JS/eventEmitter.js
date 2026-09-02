@@ -10,5 +10,10 @@ myEmitter.on('exit' , () => {
     console.log("Application Closed.");
 })
 
+myEmitter.on('login' , (log_in) => {
+    console.log(`hye ${log_in}! successfully loged in...`);
+})
+
 myEmitter.emit('greet','2nd year');
 myEmitter.emit('exit');
+myEmitter.emit('login' , 'sarthak')
