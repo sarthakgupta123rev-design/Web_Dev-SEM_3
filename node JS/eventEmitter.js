@@ -13,7 +13,11 @@ myEmitter.on('exit' , () => {
 myEmitter.on('login' , (log_in) => {
     console.log(`hye ${log_in}! successfully loged in...`);
 })
+myEmitter.on('logout' , (log_out) => {
+    console.log(`hye ${log_out}! successfully loged out...`);
+})
 
 myEmitter.emit('greet','2nd year');
 myEmitter.emit('exit');
 myEmitter.emit('login' , 'sarthak')
+myEmitter.emit('logout' , 'sarthak')
