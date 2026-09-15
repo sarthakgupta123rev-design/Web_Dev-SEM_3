@@ -1,0 +1,4 @@
+welcome to fsd sample.txt
+Semester: 3
+Semester: 3
+Semester: 3
